@@ -1,0 +1,39 @@
+h1, h2, h3 {
+	border: 3px red solid;
+	padding: 5px;
+	margin: 5px;
+	width: 100px;
+	text-align: center;
+}
+
+p {
+	border: green 2px dashed;
+	width: 500px;
+	margin: 20px;
+}
+
+.container {
+	border: 3px blue dashed;
+	height: 150px;
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	flex-flow: wrap-reverse;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.oneunit {
+	order: 2;
+	flex-grow: 1
+}
+
+.fiveunit {
+	order: 1;
+	flex-grow: 5
+}
+
+.c2 {
+	display: flex;
+	justify-content: flex-end;
+}
